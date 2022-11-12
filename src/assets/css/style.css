@@ -1,12 +1,12 @@
 @media only screen and (min-width: 992px) {
 }
 body {
-  background: linear-gradient(rgb(241, 227, 245), #e5f4ef, #dff1f1, #deeef3, #acc8eb, #a3a4ec);
+  background: linear-gradient(rgb(119, 121, 192), #e5f4ef, #dff1f1, #deeef3, #acc8eb, #a3a4ec);
 }
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  background-color: #e4e4f5;
+  background-color: #c3c3e2;
   display: flex;
   flex-direction: column;
   padding-left: 10px;
@@ -22,14 +22,14 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid rgb(9, 0, 0);
+  border: 1px solid rgb(133, 6, 6);
   border-radius: 8px;
   padding: 5px;
   width: 20%;
 }
 /* Added an image hover color shadow effect */
 img:hover {
-  box-shadow: 0 0 20px 10px rgba(1, 46, 61, 0.5);
+  box-shadow: 0 0 20px 10px rgba(71, 152, 179, 0.5);
   opacity: 0.7;
 }
 
@@ -40,12 +40,12 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: green;
+  color: rgb(100, 76, 139);
 }
 
 /* mouse over link */
 a:hover {
-  color: black;
+  color: rgb(233, 118, 118);
 }
 
 /* selected link */
@@ -79,7 +79,7 @@ p {
 .header {
   text-align: center;
   padding: 20px;
-  background-color: rgb(244, 234, 246);
+  background-color: rgb(161, 164, 209);
   font-size: 20px;
   color: rgb(11, 10, 10);
   }
@@ -97,7 +97,7 @@ p {
   padding: 30px;
   margin-left: 30px;
   margin-right: 30px;
-  background-color: rgb(217, 237, 244);
+  background-color: rgb(171, 168, 219);
   font-size: 15px;
   color: rgb(11, 10, 10);
   }
